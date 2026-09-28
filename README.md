@@ -1,59 +1,43 @@
-# QQ宠物协议逆向研究 (qqpet-protocol-research)
+# QQ宠物协议逆向
 
-对 2026-07 回归手机 QQ 的新版宠物（小鹅/Kuikly 模块）的协议层逆向研究。
-**已验证：纯协议命令驱动企鹅开始学习（无界面模拟点击）。**
+2026年7月腾讯把QQ宠物塞回了手机QQ，一只会在消息页溜达的3D小企鹅。我嫌每天手动点学习太烦，又不想用模拟点击那套，就试着把它的协议逆了。
 
-> ⚠️ 免责声明：本研究仅供学习交流（协议分析/Frida/protobuf 逆向技术）。
-> 自动化操作可能违反腾讯用户协议，存在账号风控风险，后果自负。
-> 数据已脱敏，请勿用于他人账号。
+结论：**能玩。现在可以用纯协议命令让企鹅开始上课，全程不碰屏幕。**
 
-## 核心发现
+## 原理
 
-**架构**：宠物 = Kuikly 原生模块，所有请求经
-`QQKuiklyPlatformApi.call("sendPbRequest", [cmd, protobuf, ...], callback)`
-走 QQ 私有加密通道（匿名 OIDB 编号命令，TLS 证书锁定，外部抓包不可解）。
+小鹅是个 Kuikly 模块，界面原生渲染，所有请求走 `QQKuiklyPlatformApi.call("sendPbRequest", ...)` 进 QQ 自己的加密通道。外部抓包抓不到明文（TLS 锁死 + 私有传输层），但 Frida 钩进去就是另一回事了。
 
-**已解明命令表**（详见 `README_逆向档案.md`）：
+思路说穿了很简单：既然鉴权在 App 内部完成，那就让 App 替我发请求——把自己构造的 protobuf 塞进真实请求的通道里"搭车"，响应再从回调里捞出来，QQ 本体无感知。
 
-| cmd | 语义 |
-|---|---|
-| `OidbSvcTrpcTcp.0x9b60_1` | 开始学习 {courseId, petId} |
-| `OidbSvcTrpcTcp.0x9ab2_1` | 学习状态轮询 |
-| `OidbSvcTrpcTcp.0x9acb_0` | 宠物状态查询 |
-| `OidbSvcTrpcTcp.0x975e_1` | 课程详情/好友串门 |
-| `OidbSvcTrpcTcp.0x985d_0` | 好友列表分页 |
-| ... | 信封格式/protobuf 字段见档案 |
-
-**搭车架构**（鉴权不可外部重放 → 活体内调用）：
 ```
-queue 命令 → 重开宠物页(流量爆发载体) → 同线程搭车 sendPbRequest
-→ 包装回调捕获响应 → 信封ID匹配 → protobuf 解码
+排队一条命令 → 重开宠物页制造流量 → 请求搭着真实通道发出去 → 回调里收响应 → 按信封ID认出哪条是我的 → 解码
 ```
 
-## 环境
+## 已经摸清的东西
 
-- root 安卓设备 + Florida frida-server 16.7.19（github.com/Ylarod/Florida）
-- PC: Python 3.12 + frida==16.7.19 + frida-tools==13.6.1（版本严格匹配）
-- QQ 9.3.70 (Android)
+- 宠物所有服务器命令都是匿名 OIDB 编号：`0x9b60_1` 是开课，`0x9ab2_1` 是学习状态轮询，`0x9acb_0` 是状态查询……完整命令表、信封格式、protobuf 字段结构都在 [README_逆向档案.md](README_逆向档案.md)
+- `pet_bot.py` 里有个零依赖的 protobuf wire-format 编解码器
+- 一堆 Frida 在 QQ 上的坑：反调试看门狗隔几分钟杀一次进程、静态方法 hook 里 `ov.apply(null, args)` 会直接 TypeError、Kuikly 的类散落在多个 ClassLoader 得全枚举……踩坑过程都在档案里
 
-## 快速上手
+## 跑起来
+
+需要 root 过的安卓机、QQ 登录态、Florida 版 frida-server 16.7.19（版本要和 PC 端严格一致，17.x 注入会挂）。
 
 ```bash
-# 设备: setenforce 0 + 启动 frida-server(4779) + adb forward tcp:4779
-python bot.py status    # 查宠物状态
-python bot.py study     # 协议开课（已验证生效）
+pip install frida==16.7.19 frida-tools==13.6.1
+# 设备: setenforce 0，启动 frida-server 监听 4779，adb forward tcp:4779 tcp:4779
+python bot.py status   # 看宠物状态
+python bot.py study    # 开一节课
 ```
 
-## 已知限制
+## 现状和坑
 
-- QQ 反调试看门狗周期杀进程（自愈守护已实现）
-- 移动端单登录槽位：bot 设备与你日常手机互踢（夜校模式可绕开大半）
-- QQ 版本更新后 ENVELOPE_ID/字段可能需重新录制校准
+- 开课已验证生效；收奖、续课、好友串门的命令也解出来了，还没接完
+- QQ 反调试看门狗周期性杀进程，脚本里有自愈逻辑，被杀了会自动重挂
+- 移动端单设备在线：bot 占的设备会和你日常手机互踢，所以我基本晚上挂
+- QQ 一更新，信封 ID 和字段可能要重新对着抓包校准
 
-## 致谢
+## 声明
 
-mitmproxy / Reqable / Frida + Florida / qq-pet-copilot（同类 UI 自动化方案）
-
-## License
-
-MIT
+自用研究，练 Frida 和 protobuf 逆向用的。自动化宠物大概率违反腾讯用户协议，风险自担。数据已脱敏，别拿去干别人的号。
