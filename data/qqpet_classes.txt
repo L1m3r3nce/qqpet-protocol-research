@@ -1,0 +1,39 @@
+﻿attaching to QQ pid 31246
+qphonebase classes: 0
+To/FromServiceMsg: 4
+   com.tencent.qphone.base.remote.ToServiceMsg$1
+   com.tencent.qphone.base.remote.FromServiceMsg$1
+   com.tencent.qphone.base.remote.ToServiceMsg
+   com.tencent.qphone.base.remote.FromServiceMsg
+kuikly classes: 135
+   com.tencent.mobileqq.qqpet.kuikly.module.PetEngineRegistry$c
+   com.tencent.mobileqq.qqpet.api.impl.QQPetAdapterApiImpl$a
+   com.tencent.mobileqq.qqpet.delegate.l$a
+   com.tencent.mobileqq.qqpet.delegate.QQPetPagDelegate$a
+   com.tencent.mobileqq.qqpet.kuikly.module.PetEngineRegistry
+   com.tencent.mobileqq.qqpet.profile.a
+   com.tencent.mobileqq.qqpet.profile.b
+   com.tencent.mobileqq.qqpet.TabPetController
+   com.tencent.mobileqq.qqpet.kuikly.module.f
+   com.tencent.mobileqq.qqpet.kuikly.module.m
+   com.tencent.mobileqq.qqpet.kuikly.PetKuiklyExport
+   com.tencent.mobileqq.qqpet.kuikly.module.PetEngineRegistry$preloadResources$1
+   com.tencent.mobileqq.qqpet.kuikly.module.PetEngineRegistry$preloadResources$2
+   com.tencent.mobileqq.qqpet.debug.PetUiDebugHelper
+   com.tencent.mobileqq.qqpet.delegate.QQPetReportDelegate
+   com.tencent.mobileqq.qqpet.TabPetController$a
+   com.tencent.mobileqq.qqpet.TabPetController$c
+   com.tencent.mobileqq.qqpet.TabPetController$d
+   com.tencent.mobileqq.qqpet.TabPetController$e
+   com.tencent.mobileqq.qqpet.delegate.n$a
+   com.tencent.mobileqq.qqpet.TabPetController$f
+   com.tencent.mobileqq.qqpet.preload.a
+   com.tencent.mobileqq.qqpet.preload.b
+   com.tencent.mobileqq.qqpet.setting.i$a
+   com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl$a
+   com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl$b
+   com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl$c
+   com.tencent.mobileqq.qqpet.setting.a
+   com.tencent.mobileqq.qqpet.setting.i
+   com.tencent.mobileqq.qqpet.api.IQQPetAdapterApi
+msf classes: 0

@@ -1,0 +1,365 @@
+--- [1] 04:18:33.768 real code=0 1463B
+1: 39257
+2: 1
+3: 0
+4:   1: 60
+  2:     1:       1: '1000002'
+      2:         1: '9990022'
+        2: '9990023'
+        3: '9990024'
+        4: '9990025'
+        5: '9990026'
+    1:       1: '1000003'
+      2:         1: '9990022'
+        2: '9990023'
+        3: '9990024'
+        4: '9990025'
+        5: '9990027'
+    1:       1: '1000004'
+      2:         1: '9990022'
+        2: '9990023'
+        3: '9990024'
+        4: '9990025'
+        5: '9990041'
+    1:       1: '1000005'
+      2:         1: '9990022'
+        2: '9990023'
+        3: '9990024'
+        4: '9990025'
+        5: '9990042'
+    1
+
+--- [2] 04:18:34.359 real code=0 663B
+1: 39004
+2: 0
+3: 0
+4:   1: '609'
+5: b''
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'sso_clientid'
+  2: '30312'
+
+--- [3] 04:18:34.804 real code=0 688B
+1: 39243
+2: 1
+3: 0
+4:   1:     1: 1
+    2: 1
+    3: 1790563453210
+    4: '2'
+    5: 1404137127
+    7: 7
+    50: 3
+5: b''
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11:   1: 'sso_clientid'
+  2: '30312'
+
+--- [4] 04:18:35.088 real code=0 723B
+1: 39996
+2: 1
+3: 0
+4:   4:     1: '9000'
+    2: 0
+  4:     1: '1000'
+    2: 0
+  4:     1: '1100'
+    2: 0
+  4:     1: '1200'
+    2: 0
+  4:     1: '1300'
+    2: 0
+  6:     1: 353
+  6:     1: 354
+  6:     1: 355
+5: b''
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+
+--- [5] 04:18:35.333 real code=0 668B
+1: 38756
+2: 0
+3: 0
+4:   1: 1
+  2: 1790438400
+  4: 1
+5: b''
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11:   1: 'trpc-sso'
+  2: {}
+
+--- [6] 04:18:35.560 real code=0 1694B
+1: 39253
+2: 1
+3: 0
+4:   1:     1:       1: 1
+      2: 1
+      3: '官方通知'
+      4: 'https://qqpet.gtimg.com/pet-operation/icon/offical2.png'
+      5: 'https://act.qzone.qq.com/v2/vip/tx/p/55442_71d0cadc?open_kuikly_info=%7B%22bundle_name%22%3A%22tianxuan_activity%22%7D&page_name=tianxuan_activity&act_id=55442_71d0cadc&kr_turbo_display=55442_71d0cadc&_wv=16777218'
+      6: 'act_2_20260922'
+    2:       1: 1
+      2: 1790243400
+  1:     1:       1: 1
+      2: 2
+      3: '中秋活动'
+      4: 'https://qqpet.gtimg.com/pet-resource/resources/cd5dec15-cac6-49bb-9d3c-29ea7111287b.png'
+      5: 'https://act.q
+
+--- [7] 04:18:36.166 real code=0 2154B  <<<<< 宠物状态候选!
+1: 39627
+2: 0
+3: 0
+4:   1:     1: 1
+    2:       1:         2: 100.0
+        3: 94.0
+        6: 2
+      2:         2: 100.0
+        3: 78.0
+        6: 3
+      3:         2: 100.0
+        3: 78.0
+        6: 5
+      4:         2: 100.0
+        3: 84.40000915527344
+  1:     1: 3
+    2:       1: 12
+      2: 466
+      3: 1000
+      4: 1.2000000476837158
+      5: 5166
+      6: 30
+  1:     1: 4
+    2:       1:         1: 5002
+        2: '职场小萌新'
+        3: '打工20次'
+        4: 1
+        5: '打工'
+        6: 1
+        7: 'https://qqpet.gtimg.com/resource-pet-medal/admin/medal-0727/%E6%89%93%E5%B7%A5-1.png'
+
+--- [8] 04:18:36.939 real code=0 723B
+1: 38746
+2: 1
+3: 0
+4:   1:     3: 14400
+    4: 1790563442
+  2: '6400_dc5c5073-79a4-4ae5-8ea6-3bf0b2a17735'
+  3:     2: 2
+    4: 1790566927463
+5: b''
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'sso_clientid'
+  2: '30312'
+
+--- [9] 04:18:37.199 real code=0 1426B
+1: 39807
+2: 1
+3: 0
+4:   1:     1: 101
+    2: 40
+    3: 40
+  2:     1: 10
+    2: 4
+    4: 0.5
+    5: 50
+    6: 50
+    7: 10
+    8: 0.5
+    9:       1: 100
+      2: 100
+      3: 100
+    10:       1: 100
+      2: 80
+      3: 80
+  3:     2: 'https://qqpet.gtimg.com/pet-home/one-click-care/one_click_care_card_icon_1782132602.png'
+    3: '一键护理宠物！'
+    4: '体力、清洁补至 100，心情同步提升✨'
+    5: '会根据当前缺口自动消耗道具：每块饼干补充 10 点体力值、每片香皂片补充 10 点清洁值，每消耗 1 个道具补充 1 点心情值'
+    6: '消耗道具并护理'
+    7: 3
+    8: 3
+  4:     2: 'https://qqpet.gtimg.com/pet-home/one-click-care/one_click_care_card_icon_guest_1784278283.png'
+    3: '帮助宠
+
+--- [10] 04:18:37.777 real code=0 658B
+1: 39616
+2: 0
+3: 0
+4: b''
+5: b''
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+
+--- [11] 04:18:38.049 real code=0 665B
+1: 39801
+2: 1
+3: 0
+4:   1:     1: 353
+    2: 28
+5: b''
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11:   1: 'trpc-sso'
+  2: {}
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+
+--- [12] 04:18:38.284 real code=0 1034B
+1: 39241
+2: 1
+3: 0
+4:   3:     1: 21
+    2: 99
+    3:       1: 1
+    6: '饼干'
+    7: '1'
+  4: '\x08\x15\x10c\x1a\x06饼干"\x011*Dhttps://tianquan.gtimg.cn/petRaise/item/837aa1aee9281597/preview.png2\x079990032:Mhttps://tianquan.gtimg.cn/petRaise/item/837aa1aee9281597/selected_preview.png@\x05'
+  4: '\x10c\x1a\x06虾仁"\x013*Dhttps://tianquan.gtimg.cn/petRaise/item/a1725488eb964017/preview.png2\x079990038:Mhttps://tianquan.gtimg.cn/petRaise/item/a1725488eb964017/selected_preview.png@\x14'
+5: b''
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x0fclie
+
+--- [13] 04:18:38.610 real code=0 658B
+1: 38842
+2: 0
+3: 0
+4: b''
+5: b''
+11:   1: 'trpc-sso'
+  2: {}
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+
+--- [14] 04:18:38.827 real code=0 861B
+1: 39892
+2: 0
+3: 0
+4: '\x08\x02\x12Y\nMhttps://tianxuan.gtimg.cn/54965_020dc40a/img/4355120/Group2119903223_01d5.png\x12\x08点券*5\x12Z\nMhttps://tianxuan.gtimg.cn/54965_020dc40a/img/4355120/Group2119903226_c7b1.png\x12\t饼干*20\x1a\x0f150259_65bc43a9'
+5: b''
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11:   1: 'sso_clientid'
+  2: '30312'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+
+--- [15] 04:18:39.110 real code=0 1424B  <<<<< 宠物状态候选!
+1: 39627
+2: 0
+3: 0
+4:   1:     1: 9
+    2:       1:         1: 2
+      2: 'MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng'
+      3:         1:           1:             2: 100.0
+            3: 94.0
+            4: 55
+            5: b'\xe6\xad\xa3\xe5\x90\x91\xe6\x83\x85\xe7\xbb\xaa'
+            6: 2
+          2:             2: 100.0
+            3: 78.0
+            4: 59
+            5: b'\xe5\xb9\xb2\xe5\x8a\xb2\xe5\x8d\x81\xe8\xb6\xb3'
+            6: 3
+          3:             2: 100.0
+            3: 78.0
+            4: 62
+            5: b'\xe9\xab\x98'
+            6: 5
+          4:             2: 100.0
+
+--- [16] 04:18:39.587 real code=0 688B
+1: 39243
+2: 1
+3: 0
+4:   1:     1: 1
+    2: 1
+    3: 1790563453210
+    4: '2'
+    5: 1404137127
+    7: 7
+    50: 3
+5: b''
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+
+--- [17] 04:18:40.041 real code=0 3815B  <<<<< 宠物状态候选!
+1: 38564
+2: 1
+3: 0
+4:   1: '{"pkey":"1=4|2=55|3=59|4=0","count":12}'
+  2:     1:       1: 1000
+    8:       1: '4'
+      2:         1:           1: '0'
+          2:             2: b'\x12\x11\n\x04\x08\x01\x10\x01\x12\x0740036060\x02'
+            6: b'\n\x02ID\x12\x0535548'
+        5: 1790569120
+    8:       1: '0;1;2;3;5'
+      2:         1:           1: '0'
+          2:             1: 1
+            2: b'\x12\x1e\n\x04\x08\x01\x10\x01\x12\x074003626"\x0b\x08\x01\x12\x0740036260\x020\x03'
+            2: b'\x12\x1e\n\x04\x08\x01\x10\x01\x12\x074003797"\x0b\x08\x01\x12\x0740037970\x020\x03'
+     
+
+--- [18] 04:18:41.619 real code=0 1096B
+1: 38566
+2: 1
+3: 0
+4: b''
+5: b''
+11:   1: 'trpc-sso'
+  2: {}
+11: '\n\x0fclient_conn_seq\x12\n1790569091'
+11:   1: 'sso_clientid'
+  2: '30312'
+11: '\n\x1atrpc-oc-priority-pass-back\x12\x02-1'
+11: '\n\x08qq-trans\x12\x1bcompose_version=1.0.0_debug'
+11: '\n\x0esso_dyeing_key\x12\n1120602125'
+

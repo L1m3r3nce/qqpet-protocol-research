@@ -1,0 +1,213 @@
+=== module.method ===
+ 2957  KRLogModule.logInfo
+  387  QQKuiklyPlatformApi.getUin
+  270  HRBridgeModule.urlEncode
+  198  QQKuiklyPlatformApi.getUid
+  165  AIProductModule.getFriendsSimpleInfo
+  114  HRBridgeModule.reportCustomDtEvent
+  102  QQKuiklyPlatformApi.sendPbRequest
+   96  QQPetEngineModule.playAnimation
+   78  KRLogModule.logError
+   76  KRLogModule.logDebug
+   75  AICommonModule.mmkvSetString
+   59  AICommonModule.mmkvGetString
+   58  KRMemoryCacheModule.setObject
+   54  KRDiskCacheModule.setStringItem
+   52  KRNotifyModule.addNotify
+   40  KRNotifyModule.postNotify
+   39  KRNotifyModule.removeNotify
+   34  AICommonModule.getCacheString
+   32  HRBridgeModule.preDownloadImage
+   30  AIProductModule.isBuddy
+   29  AIFileModule.fileExistsAndNotEmpty
+   28  HRBridgeModule.serverTimeMillis
+   28  QQKuiklyPlatformApi.getNetworkType
+   27  AICommonModule.mmkvGetBoolean
+   26  HRCacheModule.getItem
+   24  VasKuiklyModule.fileGet
+   23  HRBridgeModule.currentTimestamp
+   22  VasKuiklyModule.isDarkTheme
+   21  QQPetEngineModule.setDirtyScale
+   21  KRCalendarModule.method_get_field
+   20  VasKuiklyModule.fileGet2
+   19  QQPetModule.fetchResourcePath
+   19  QQPetModule.getCachedUserPetDataV2
+   19  HRCacheModule.setItem
+   19  AICommonModule.fileSize
+   16  AICommonModule.setCacheString
+   16  HRBridgeModule.shakeMedium
+   16  QQKuiklyPlatformApi.getDeviceInfo
+   13  AIMaterialModule.getUpdateSystemFile
+   12  QQKuiklyPlatformApi.setEdgePopWidth
+   12  QQPetSoundModule.play
+   10  QQPetSoundModule.load
+   10  QQKuiklyPerformanceModule.getLaunchPerformanceData
+    9  KRCalendarModule.method_format
+    9  AICommonModule.getCacheTypedArray
+    8  QQPetModule.onGetNumericMetricsRsp
+    8  KRPerformanceModule.onPageCreateFinish
+    8  KRPerformanceModule.getPerformanceData
+    8  KRTurboDisplayModule.isTurboDisplay
+    8  QQKuiklyPerformanceModule.reportPerformanceToAtta
+    8  AICommonModule.picSize
+    7  HRBridgeModule.setBlackStatusBarStyle
+    7  QQKuiklyPlatformApi.getThemeMode
+    6  KRFontModule.scaleFontSize
+    6  QQPetEngineModule.setFurParams
+    6  QQPetEngineModule.zoomCameraAnimated
+    6  QQPetEngineModule.setPetRotationAbsolute
+    6  AIMaterialModule.isUpdateSystemFileExists
+    6  QQPetEngineModule.switchBackground
+    6  QQKuiklyPlatformApi.setCustomBackPressed
+
+=== FOCUS details (1081) ===
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.isDarkTheme  null
+[06:46:55] [QQ][info] [MOD HRBridgeModule.setBlackStatusBarStyle  null
+[06:46:55] [QQ][info] [MOD AICommonModule.mmkvSetString  {"name": "common_mmkv_configurations","key": "pet_bubble_trace_id","value": ""}
+[06:46:55] [QQ][info] [MOD AICommonModule.mmkvSetString  {"name": "common_mmkv_configurations","key": "pet_bubble_from_source","value": ""}
+[06:46:55] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "coin_bag_hide_detail_1120602125"}
+[06:46:55] [QQ][info] [MOD HRBridgeModule.currentTimestamp  null
+[06:46:55] [QQ][info] [MOD QQPetModule.registerPushObserver  [{"callback_id": "push_3834982_1"}]
+[06:46:55] [QQ][info] [MOD QQPetModule.fetchResourcePath  {"file_name": "PetLayoutDefaults.json","scene_id": 9990004}
+[06:46:55] [QQ][info] [MOD AICommonModule.setCacheString  {"key": "pet_enginecurrent_session_id","value": "e3350733-1b27-44ed-8c69-879f66537cd0"}
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin.mp3
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-191FCD86F136D98D9724CF53BF2D2A31"}
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin_show_v2_wav.mp3
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-B39EADBFE034C86BC7E176C3A06939AE"}
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin_dismiss.mp3
+[06:46:55] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-762FF0FBE7066C4838E84E2EE2A4927F"}
+[06:46:55] [QQ][info] [MOD HRBridgeModule.currentTimestamp  null
+[06:46:55] [QQ][info] [MOD AICommonModule.setCacheString  {"key": "friends_select_bar_preload_uin","value": ""}
+[06:46:56] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": true,"needExt": true}]
+[06:46:56] [QQ][info] [MOD AIProductModule.getFriendsSimpleInfo  {"uin":"","uid":"u_exaEJFJoFB4WH844L0QUdw"}
+[06:46:56] [QQ][info] [MOD AICommonModule.setCacheString  {"key": "pet_self_idpetId_1120602125","value": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"}
+[06:46:56] [QQ][info] [MOD AICommonModule.mmkvGetBoolean  {"name": "qq_adelie","key": "egpet_record_reddot_clicked_1120602125","default": false}
+[06:46:56] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:46:56] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "EGLike_1120602125_date"}
+[06:46:56] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "EGLike_1120602125_count"}
+[06:46:56] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "EGLike_1120602125_isLiked"}
+[06:46:56] [QQ][info] [MOD AICommonModule.setCacheString  {"key": "pet_self_idpetId_1120602125","value": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"}
+[06:46:56] [QQ][info] [MOD QQPetModule.fetchResourcePath  {"file_name": "animation.gltf","scene_id": 4005051,"model_id": 1000005}
+[06:46:56] [QQ][info] [MOD QQPetModule.registerUserPetDataObserver  [{"observer_id": "userPet_3834982_1","uin": "1120602125"}]
+[06:46:56] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": false,"needExt": false}]
+[06:46:57] [QQ][info] [MOD QQPetModule.registerPushObserver  [{"callback_id": "push_3834982_2"}]
+[06:46:57] [QQ][info] [MOD AICommonModule.getCacheString  {"key": "pet_popup_consumedconsumed_ids"}
+[06:46:57] [QQ][info] [MOD AICommonModule.mmkvGetBoolean  {"name": "qq_adelie","key": "QQPetPkStranger_switch_key_1120602125","default": true}
+[06:46:57] [QQ][info] [MOD AICommonModule.mmkvGetBoolean  {"name": "qq_adelie","key": "QQPetEffectAudio_switch_key_1120602125","default": true}
+[06:46:57] [QQ][info] [MOD AICommonModule.mmkvGetBoolean  {"name": "qq_adelie","key": "QQPetEffectShake_switch_key_1120602125","default": true}
+[06:46:57] [QQ][info] [MOD HRBridgeModule.setBlackStatusBarStyle  null
+[06:46:57] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_pgin","data": {"dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": 0,"pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": 1000005,"is_compose": "1","dt_appkey": "0AND072FT1RMFYVK"}}
+[06:46:57] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:46:57] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:46:57] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:46:57] [QQ][info] [MOD HRBridgeModule.currentTimestamp  null
+[06:46:58] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "PetHomeResourceManager.petHomeResourceLastRequestTime"}
+[06:46:58] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "PetHomeResourceManager.petHomeResourceCache"}
+[06:46:58] [QQ][info] [MOD QQPetModule.fetchResourcePath  {"file_name": "shadow.png","scene_id": 9990042}
+[06:46:58] [QQ][info] [MOD AICommonModule.mmkvSetString  {"name": "qq_adelie","key": "PetHomeResourceManager.petHomeResourceCache","value": "CDwSogIKOAoHMTAwMDAwMRItCgc5OTkwMDE3Egc5OTkwMDE4Ggc5OTkwMDE5Igc5OTkwMDIwKgc5OTkwMDIxCjgKBzEwMDAwMDISLQoHOTk5MDAyMhIHOTk5MDAyMxoHOTk5MDAyNCIHOTk5MDAyNSoHOTk5MDAyNgo4CgcxMDAwMDAzEi0KBzk5OTAwMjISBzk5OTAwMjMaBzk5OTAwMjQiBzk5OTAwMjUqBzk5OTAwMjcKOAoHMTAwMDAwNBItCgc5OTkwMDIyEgc5OTkwMDIzGgc5OTkwMDI0Igc5OTkwMDI1Kgc5OTkwMDQxCjgKBzEwMDAwMDUSLQoHOTk5MDAyMhIHOTk5MDAyMxoHOTk5MDAyNCIHOTk5MDAyNSoHOTk5MDA0MhrSAQooCgcxMDAwMDAyEh0K
+[06:46:58] [QQ][info] [MOD AICommonModule.mmkvSetString  {"name": "qq_adelie","key": "PetHomeResourceManager.petHomeResourceLastRequestTime","value": "1790516817"}
+[06:46:58] [QQ][info] [MOD AICommonModule.getCacheString  {"key": "pet_popup_showingshowing_id"}
+[06:46:59] [QQ][info] [MOD AICommonModule.getCacheString  {"key": "pet_popup_showingshowing_id"}
+[06:46:59] [QQ][info] [MOD QQPetModule.getPreloadResourcePath  {"module": "adopt","url": "https:\/\/m8x.cdn-go.cn\/web\/cdn\/-\/latest\/pet\/56426078b45b8f6fdd730e95e88e8956.png"}
+[06:46:59] [QQ][info] [MOD AICommonModule.mmkvSetString  {"name": "qq_adelie","key": "spark_brief_1120602125_1120602125","value": ""}
+[06:46:59] [QQ][info] [MOD AICommonModule.getCacheTypedArray  [pet_feed_history_start_datadata]
+[06:46:59] [QQ][info] [MOD AICommonModule.mmkvGetString  {"name": "qq_adelie","key": "pet_home_entry_daily_badge_1120602125_act_2_20260917"}
+[06:46:59] [QQ][info] [MOD QQPetModule.onGetNumericMetricsRsp  [([B)]
+[06:47:00] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin_bag.mp3
+[06:47:00] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-B283E3952BAD2646632E1A6131418401"}
+[06:47:00] [QQ][info] [MOD HRBridgeModule.currentTimestamp  null
+[06:47:00] [QQ][info] [MOD QQPetModule.fetchResourcePath  {"file_name": "ai_video_config.json","scene_id": 9990040}
+[06:47:00] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": true,"needExt": true}]
+[06:47:00] [QQ][info] [MOD AIProductModule.getFriendsSimpleInfo  {"uin":"","uid":"u_exaEJFJoFB4WH844L0QUdw"}
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_settings","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng\",\
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "qq_imp","data": {"qq_eid": "em_pet_diary","dt_eid": "em_pet_diary","qq_pgid": "pg_pet_homepage","status": "2","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_st
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_membership","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng\"
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_main","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_status": "0","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_level","level": 12,"dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0M
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_eed","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng\",\"pet_
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_bath","cleanliness_level": "100","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTI
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_entry_friends","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2N
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_go_out","status": "1","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2Nz
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_mini_card","pet_avatar_type": "2","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LT
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_ring","panel_status": 0,"dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2
+[06:47:00] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_personalized_decoration","is_red_tips": 0,"dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMj
+[06:47:00] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:47:00] [QQ][info] [MOD QQPetModule.onGetNumericMetricsRsp  [([B)]
+[06:47:01] [QQ][info] [MOD AICommonModule.getCacheTypedArray  [pet_feed_history_start_datadata]
+[06:47:01] [QQ][info] [MOD AICommonModule.getCacheString  {"key": "pet_popup_showingshowing_id"}
+[06:47:01] [QQ][info] [MOD HRBridgeModule.serverTimeMillis  null
+[06:47:02] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": true,"needExt": true}]
+[06:47:02] [QQ][info] [MOD AIProductModule.getFriendsSimpleInfo  {"uin":"","uid":"u_exaEJFJoFB4WH844L0QUdw"}
+[06:47:02] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": true,"needExt": true}]
+[06:47:02] [QQ][info] [MOD AIProductModule.getFriendsSimpleInfo  {"uin":"","uid":"u_exaEJFJoFB4WH844L0QUdw"}
+[06:47:02] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": true,"needExt": true}]
+[06:47:02] [QQ][info] [MOD AIProductModule.getFriendsSimpleInfo  {"uin":"","uid":"u_exaEJFJoFB4WH844L0QUdw"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.currentTimestamp  null
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.unitedLoadStringData  ai_product_pet_config
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/ai/5da9e1f197f28f32f89513d217fee95f.jpg
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-451F444B11EE0E3298C4F54FCBDC7878"}
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/ai/5f1ae8b8e69f2e86aac23932706338d6.jpg
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-A8F1891446CC115690BB928C879AB7A6"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.preDownloadImage  {"url": "https:\/\/m8x.cdn-go.cn\/web\/cdn\/-\/latest\/ai\/e940e643829920874ac39b30178b69ab.png"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.preDownloadImage  {"url": "https:\/\/m8x.cdn-go.cn\/web\/cdn\/-\/latest\/ai\/2b1f68cb9bd99223686fa5c0b27eb579.png"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.preDownloadImage  {"url": "https:\/\/m8x.cdn-go.cn\/web\/cdn\/-\/latest\/ai\/5e6b1f3a7f5ff381e4ec7cbe23f39270.png"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.preDownloadPAGResource  {"url": "https:\/\/m8x.cdn-go.cn\/web\/cdn\/-\/latest\/pet_home\/750e01cb85b2c8f8d6030fae973207b0.pag"}
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/ai/57251a0edeee1c8160aba78fa4e864ee.pag
+[06:47:02] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-CB181D45290D1AA2FCEDDE3BC118AB51"}
+[06:47:02] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_notification","interactive_messages_number": "3","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTE
+[06:47:02] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_lottery_activity","entry_id": "1","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LT
+[06:47:02] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_lottery_activity","entry_id": "2","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LT
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_lottery_activity","entry_id": "3","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LT
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_power","specific_value": 100,"pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_cleaning","specific_value": 100,"pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTIt
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_mood","specific_value": 100,"pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "em_pet_status_value_window","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2NzU
+[06:47:03] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_imp","data": {"dt_eid": "pet_money_bag","state": "claimed","outgoing_type": "study","result": "","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/df6141f6d2fc149e0ebaf82cdeff8531.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/df6141f6d2fc149e0ebaf82cdeff8531.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/64b63b59bf20db4b931d3b186c4c0f17.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/987bdd10b20fb7012e81313df109815a.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/bcc364e0c81468f8868de27d745d5919.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/628c6f3ec21bd4a96df8a14059bdc79a.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/e2e33b30d658e9a4d76c5aeb56d753fa.mp4"}
+[06:47:03] [QQ][info] [MOD AICommonModule.fileSize  {"path": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/cache\/pet_video_cache\/0e19a93df3c67b45133082244932ce06.mp4"}
+[06:47:11] [QQ][info] [MOD AICommonModule.mmkvGetBoolean  {"name": "qq_adelie","key": "QQPetEffectShake_switch_key_1120602125","default": true}
+[06:47:11] [QQ][info] [MOD HRBridgeModule.shakeMedium  null
+[06:47:11] [QQ][info] [MOD HRBridgeModule.reportCustomDtEvent  {"eventCode": "dt_clck","data": {"dt_eid": "em_pet_go_out","status": "1","dt_appkey": "0AND072FT1RMFYVK","dt_pgid": "pg_pet_homepage","subject_object_state": "1","page_from": "1","touin": "1120602125","guest_state": "0","pet_id": "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng","pet_species": "1000005","is_compose": "1","cur_pg": "{\"dt_pgid\": \"pg_pet_homepage\",\"subject_object_state\": \"1\",\"page_from\": \"1\",\"touin\": \"1120602125\",\"guest_state\": 0,\"pet_id\": \"MTEyMDYwMjEyNS00LTItMTc4NTE2N
+[06:47:11] [QQ][info] [MOD AICommonModule.getCacheString  {"key": "pet_bubbletrace_id"}
+[06:47:11] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "06f00076856"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "4916318627"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "ai_product"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "pet_home"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "4"}
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.isDarkTheme  null
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516813566"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516813571"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516813650"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516816159"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516817361"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1790516816448"}
+[06:47:12] [QQ][info] [MOD EGPetDataModule.observeOutdoorStatusPush  null
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": ""}
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin_show_v2_wav.mp3
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-B39EADBFE034C86BC7E176C3A06939AE"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "android"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "WiFi"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "9.3.70"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "0"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1120602125"}
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/coin_dismiss.mp3
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-762FF0FBE7066C4838E84E2EE2A4927F"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "Pixel 5"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": ""}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "11100"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "2"}
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet  https://m8x.cdn-go.cn/web/cdn/-/latest/audio/794f9951eb365132dc872cc98cde1c4e.mp3
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "1"}
+[06:47:12] [QQ][info] [MOD VasKuiklyModule.fileGet2  {"absolutePath": "\/storage\/emulated\/0\/Android\/data\/com.tencent.mobileqq\/files\/qqvip\/dynamic_drawable\/m8x.cdn-go.cn-B76B64E1A3BED7ABE933542262C36565"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "mqqapi:\/\/kuikly\/open?bundle_name=ai_pet_home&session_id=e3350733-1b27-44ed-8c69-879f66537cd0&modal_mode=1&target_uin=1120602125&is_host=true&sync_rendering=0&full_screen=1&report_source=1&appId=1&isDebug=false&isPublic=true&buildVersion=6&isQQContainer=1&page_name=pet_home&isNightMode=0&uin=1120602125&resVersion=11100&isFoldDevice=0&isTabletDevice=0&qqThemeMode=0&isClearBgColor=0&dpScaleDensity=2.75&qqScaleDensity=2.7&open_page_ts=1790516813566"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "11100"}
+[06:47:12] [QQ][info] [MOD HRBridgeModule.urlEncode  {"string": "13"}
+[06:47:12] [QQ][info] [MOD QQPetModule.getCachedUserPetDataV2  [{"uin": "1120602125","needPet": true,"needDisplay": false,"needExt": false}]

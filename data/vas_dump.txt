@@ -1,0 +1,120 @@
+﻿QQ pid: 5875
+============================================================
+com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl -> 30 methods
+    public static void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.a(com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl)
+    public static final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.access$reportDownloadResult(com.tencent.mobileqq.vas.api.impl.VasKuiklyApi
+    public static void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.b(java.lang.String,com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl,kotlin.jvm
+    private final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.forcePreloadKuiklyRes(java.lang.String,kotlin.jvm.functions.Function2)
+    private final java.util.HashMap com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.getMqqToKuiklyData()
+    private final long com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.getPreloadInterval()
+    private final boolean com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.hasLocalRes(java.lang.String)
+    private final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.innerStartPreload()
+    private static final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.preloadKuiklyResByRule$lambda$2(java.lang.String,com.tencent.mobileqq.vas
+    private final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.reportDownloadResult(com.tencent.mobileqq.vas.VasCommonReportProxy,java.lang.Str
+    private final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.reportDownloadResult(java.lang.String,java.lang.String,java.lang.String,int,int,
+    static void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.reportDownloadResult$default(com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl,com.ten
+    private final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.startLoadMaterialData(org.json.JSONObject,java.lang.String)
+    private static final void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.startPreload$lambda$8(com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl)
+    public java.lang.String com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.buildVasKuiklySchema(java.lang.String,java.lang.String,java.util.Map)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.getDeviceInfoForGxhTheme(java.lang.String)
+    public java.lang.Object com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.getMqqData(java.lang.String)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.invokeArkViewReport(java.lang.String)
+    public boolean com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.isDexPageExist(java.lang.String,java.lang.String)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.preloadKuiklyResByRule(java.lang.String,kotlin.jvm.functions.Function2)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.preloadKuiklyResByTag(long,java.lang.String,kotlin.jvm.functions.Function2)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.registerExternalModule(com.tencent.kuikly.core.render.android.b)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.registerExternalRenderView(com.tencent.kuikly.core.render.android.b)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.registerScene(java.lang.String)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.registerTDFlModule(com.tencent.kuikly.core.render.android.b)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.registerViewExternalPropHandler(com.tencent.kuikly.core.render.android.b)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.setMqqToKuiklyData(java.lang.String,java.lang.Object)
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.startPreload()
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.unregisterScene()
+    public void com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl.writeH5Data(java.lang.String)
+============================================================
+com.tencent.mobileqq.qqpet.api.impl.QQPetAdapterApiImpl -> 2 methods
+    public static final com.tencent.mobileqq.qqpet.api.IQQPetAdapterApi$a com.tencent.mobileqq.qqpet.api.impl.QQPetAdapterApiImpl.access$getCallBack$p(com
+    public void com.tencent.mobileqq.qqpet.api.impl.QQPetAdapterApiImpl.setDrawerFrameCallback(android.app.Activity,com.tencent.mobileqq.qqpet.api.IQQPetA
+============================================================
+com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl -> 19 methods
+    public static final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.access$destroyInternal(com.tencent.mobileqq.qqpet.api.impl.TabPet
+    public static final com.tencent.mobileqq.qqpet.TabPetController com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.access$getPetController$p(
+    private final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.destroyInternal()
+    private final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.destroyPetController()
+    private final com.tencent.mobileqq.qqpet.api.IQQPetService com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.getQQPetService()
+    private final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.registerListenersIfNeeded()
+    private final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.unregisterListeners()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.createMainFrameQQPet(android.app.Activity)
+    public final void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.destroy()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.getMainFramePetSwitch(kotlin.jvm.functions.Function1)
+    public final boolean com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.isPetCreated()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onAccountChanged(android.app.Activity,android.view.ViewGroup)
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onAccountPanelDismiss()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onAccountPanelShow()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onPause()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onPostThemeChanged()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onResume()
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.onTabChanged(java.lang.String)
+    public void com.tencent.mobileqq.qqpet.api.impl.TabPetControllerApiImpl.setPetVisibility(boolean)
+============================================================
+VAS api/request/sso classes: 168
+    com.tencent.mobileqq.vas.api.impl.VasNTGXHToggleImpl
+    com.tencent.mobileqq.vas.api.IVasService
+    com.tencent.mobileqq.vas.api.impl.VasDownloaderImpl$1
+    com.tencent.mobileqq.vas.api.IVasCommonAdapter
+    com.tencent.mobileqq.vas.api.impl.VasComicSplashApiImpl
+    com.tencent.mobileqq.vas.api.impl.VasDownloaderImpl$a
+    com.tencent.mobileqq.vas.api.impl.VasDownloaderImpl$b
+    com.tencent.mobileqq.vas.api.impl.VasDownloaderImpl$c
+    com.tencent.mobileqq.vas.api.impl.VasTempApiImpl$a
+    com.tencent.mobileqq.vas.api.RemoteProxy$QIPCHandler
+    com.tencent.mobileqq.vas.api.IVasNTGXHToggle
+    com.tencent.mobileqq.vas.api.impl.VasMqqSchemeImpl
+    com.tencent.mobileqq.vas.api.IVasAppIconStateManager
+    com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl$mqqToKuiklyData$2
+    com.tencent.mobileqq.vas.api.impl.VasNTGXHToggleImpl$a
+    com.tencent.mobileqq.vas.api.IVasGXHToggle
+    com.tencent.mobileqq.vas.api.impl.VasCommonAdapterImpl
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$gameCardManager$2
+    com.tencent.mobileqq.vas.api.IVasUpdateManager
+    com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl$preloadKuiklyResByRule$1$1
+    com.tencent.mobileqq.vas.api.impl.VasLiangNumImpl$a
+    com.tencent.mobileqq.vas.api.impl.VasNTGXHToggleImpl$proxy$1
+    com.tencent.mobileqq.vas.api.impl.VasVipInfoReqApiImpl$a
+    com.tencent.mobileqq.vas.api.impl.VasColorNameImpl$a
+    com.tencent.mobileqq.vas.api.impl.VasThemeUtilImpl$a
+    com.tencent.mobileqq.vas.api.impl.VasKuiklyDownloadHelper
+    com.tencent.mobileqq.vas.api.IUniteVasRes
+    com.tencent.mobileqq.vas.api.impl.VasPreloadApiImpl$lastTimeMap$2
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$tianshuWebManager$2
+    com.tencent.mobileqq.vas.api.impl.VasKuiklyApiImpl$registerExternalModule$1$1
+    com.tencent.mobileqq.vas.api.IVasUpdateManager$a
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$vasHybridRoute$2
+    com.tencent.mobileqq.vas.api.IVasColorName
+    com.tencent.mobileqq.vas.api.impl.VasVipInfoReqApiImpl
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$vasFtManager$2
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$gxh$2
+    com.tencent.mobileqq.vas.api.impl.f
+    com.tencent.mobileqq.vas.api.IToggleData
+    com.tencent.mobileqq.vas.api.impl.j
+    com.tencent.mobileqq.vas.api.impl.m
+    com.tencent.mobileqq.vas.api.impl.s
+    com.tencent.mobileqq.vas.api.impl.w
+    com.tencent.mobileqq.vas.api.impl.x
+    com.tencent.mobileqq.vas.api.impl.VasPskeyApiImpl
+    com.tencent.mobileqq.vas.api.IVasRecentData
+    com.tencent.mobileqq.vas.api.impl.VasPreloadApiImpl
+    com.tencent.mobileqq.vas.api.impl.VasGXHToggleImpl
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$vipDataProxy$2
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$themeSwitchManager$2
+    com.tencent.mobileqq.vas.api.impl.VasPreloadApiImpl$bunldeMap$2
+    com.tencent.mobileqq.vas.api.IVasDownloader$DownloadConfig
+    com.tencent.mobileqq.vas.api.IVasLiangNum$b
+    com.tencent.mobileqq.vas.api.impl.VasPskeyApiImpl$lastTimeMap$2
+    com.tencent.mobileqq.vas.api.impl.VasDepTempImpl
+    com.tencent.mobileqq.vas.api.IVasDownloader
+    com.tencent.mobileqq.vas.api.impl.VasServiceImpl$kingCardManager$2
+    com.tencent.mobileqq.vas.api.impl.VasPskeyApiImpl$psKeyMap$2
+    com.tencent.mobileqq.vas.api.impl.UnitedDataImpl
+    com.tencent.mobileqq.vas.api.IVasDataHelperApi
+    com.tencent.mobileqq.vas.api.impl.VasDataHelperApiImpl

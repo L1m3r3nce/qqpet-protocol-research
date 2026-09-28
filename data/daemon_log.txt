@@ -1,0 +1,562 @@
+[19:09:27] daemon starting, waiting for QQ...
+[19:09:28] attached QQ pid=15122
+[19:09:28] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:09:29] [js][info] [*] driver v3 hooks installed (5 loaders)
+[19:09:29] driver loaded
+[19:09:37] carrier ready: {'api': True, 'carrier': True, 'pending': False}
+[19:10:05] job: OidbSvcTrpcTcp.0x9acb_0
+[19:10:07] [js][info] [piggy] sent OidbSvcTrpcTcp.0x9acb_0
+[19:10:35] resp: code=None b64len=0
+[19:12:10] job: OidbSvcTrpcTcp.0x9acb_0
+[19:12:37] [js][info] [piggy] sent OidbSvcTrpcTcp.0x9acb_0
+[19:12:41] resp: code=None b64len=0
+[19:13:17] daemon starting, waiting for QQ...
+[19:13:19] attached QQ pid=15122
+[19:13:19] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:13:20] [js][info] [*] driver v3 hooks installed (7 loaders)
+[19:13:20] driver loaded
+[19:13:55] daemon starting, waiting for QQ...
+[19:13:57] attached QQ pid=17083
+[19:13:57] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:13:57] [js][info] [*] driver v3 hooks installed (4 loaders)
+[19:13:57] driver loaded
+[19:14:33] carrier ready: {'api': True, 'carrier': True, 'pending': False}
+[19:15:26] job: OidbSvcTrpcTcp.0x9acb_0
+[19:15:42] loop error: script has been destroyed
+[19:15:45] QQ restarted 17083->18236, reattaching...
+[19:15:46] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:15:46] [js][info] [*] driver v3 hooks installed (4 loaders)
+[19:15:46] reattached + carrier ready
+[19:15:47] QQ restarted 18236->11398, reattaching...
+[19:15:48] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:15:50] [js][info] [*] driver v3 hooks installed (3 loaders)
+[19:21:56] loop error: script has been destroyed
+[19:21:59] QQ restarted 18236->18884, reattaching...
+[19:22:01] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:22:01] [js][info] [*] driver v3 hooks installed (6 loaders)
+[19:24:06] reattached + carrier ready
+[19:24:26] job: OidbSvcTrpcTcp.0x9acb_0
+[19:24:43] loop error: script has been destroyed
+[19:24:46] QQ restarted 18884->23891, reattaching...
+[19:24:48] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:24:48] loop error: the connection is closed
+[19:24:51] QQ restarted 18884->21818, reattaching...
+[19:24:53] [js][info] [*] pet driver v3 (piggyback) loaded
+[19:24:56] [js][info] [*] driver v3 hooks installed (3 loaders)
+[19:27:04] daemon starting, waiting for QQ...
+[19:27:05] attached QQ pid=13227
+[19:27:05] [js][info] [*] pet driver v4 (y-level piggyback) loaded
+[19:27:06] [js][info] [*] y() hooked
+[19:27:06] [js][info] [*] P() hooked
+[19:27:06] [js][info] [*] y() hooked
+[19:27:06] [js][info] [*] P() hooked
+[19:27:06] [js][info] [*] driver v4 installed (3 loaders)
+[19:27:06] driver loaded
+[19:31:49] daemon starting, waiting for QQ...
+[19:31:50] attached QQ pid=13227
+[19:31:50] [js][info] [*] pet driver v5 loaded
+[19:31:51] [js][info] [*] driver v5 installed
+[19:31:51] driver loaded
+[19:33:31] daemon starting, waiting for QQ...
+[19:33:33] attached QQ pid=24495
+[19:33:33] [js][info] [*] pet driver v5 loaded
+[19:33:33] [js][info] [*] driver v5 installed
+[19:33:33] driver loaded (carrier wait happens per-job)
+[19:33:33] status dumped: {'carrier': False, 'pending': False}
+[19:33:36] status dumped: {'carrier': False, 'pending': False}
+[19:34:28] status dumped: {'carrier': False, 'pending': False}
+[19:35:31] status dumped: {'carrier': False, 'pending': False}
+[19:36:04] status dumped: {'carrier': False, 'pending': False}
+[19:36:31] status dumped: {'carrier': False, 'pending': False}
+[19:36:40] status dumped: {'carrier': False, 'pending': False}
+[19:37:17] status dumped: {'carrier': True, 'pending': False}
+[19:37:27] job: OidbSvcTrpcTcp.0x9acb_0
+[19:37:57] resp: sent=None resps=0
+[19:38:04] status dumped: {'carrier': True, 'pending': True}
+[19:38:42] status dumped: {'carrier': True, 'pending': True}
+[19:39:39] daemon starting, waiting for QQ...
+[19:39:41] attached QQ pid=24495
+[19:39:41] [js][info] [*] pet driver v5 loaded
+[19:39:42] [js][info] [*] driver v5 installed
+[19:39:42] driver loaded (carrier wait happens per-job)
+[19:40:13] job: OidbSvcTrpcTcp.0x9acb_0
+[19:40:44] resp: sent=None resps=0
+[19:41:10] job: OidbSvcTrpcTcp.0x9acb_0
+[19:41:40] resp: sent=None resps=0
+[19:42:06] job: OidbSvcTrpcTcp.0x9acb_0
+[19:43:42] loop error: script has been destroyed
+[19:43:45] QQ restarted 24495->29934, reattaching...
+[19:43:50] [js][info] [*] pet driver v5 loaded
+[19:43:52] [js][info] [*] driver v5 installed
+[19:43:52] reattached, auto-opening pet page...
+[19:44:39] carrier state: {'carrier': False, 'pending': False}
+[19:44:39] special dumped: {'carrier': False, 'pending': False}
+[19:45:04] job: OidbSvcTrpcTcp.0x9acb_0
+[19:46:45] resp: sent=None resps=0
+[19:47:32] job: OidbSvcTrpcTcp.0x9acb_0
+[19:48:00] resp: sent=True resps=1
+[19:48:39] daemon starting, waiting for QQ...
+[19:48:41] attached QQ pid=29934
+[19:48:41] [js][info] [*] pet driver v5 loaded
+[19:48:41] [js][info] [*] driver v5 installed
+[19:48:41] driver loaded (carrier wait happens per-job)
+[19:48:45] job: OidbSvcTrpcTcp.0x9acb_0
+[19:50:25] resp: sent=None resps=0
+[19:50:34] QQ restarted 29934->21818, reattaching...
+[19:50:35] [js][info] [*] pet driver v5 loaded
+[19:50:36] [js][info] [*] driver v5 installed
+[19:50:36] reattached, auto-opening pet page...
+[19:51:20] carrier state: {'carrier': False, 'pending': False}
+[19:51:20] job: OidbSvcTrpcTcp.0x9acb_0
+[19:53:06] daemon starting, waiting for QQ...
+[19:53:07] attached QQ pid=29934
+[19:53:08] [js][info] [*] pet driver v5 loaded
+[19:53:09] [js][info] [*] driver v5 installed
+[19:53:09] driver loaded (carrier wait happens per-job)
+[19:54:08] job: OidbSvcTrpcTcp.0x9acb_0
+[19:54:12] resp: sent=True resps=3
+[19:55:38] daemon starting, waiting for QQ...
+[19:55:39] attached QQ pid=29934
+[19:55:39] [js][info] [*] pet driver v5 loaded
+[19:55:40] [js][info] [*] driver v5 installed
+[19:55:40] driver loaded (carrier wait happens per-job)
+[19:55:43] job: OidbSvcTrpcTcp.0x9acb_0
+[19:57:23] resp: sent=None resps=0
+[19:57:36] special dumped: {'carrier': True, 'pending': True}
+[19:58:33] QQ restarted 29934->21818, reattaching...
+[19:58:34] [js][info] [*] pet driver v5 loaded
+[19:58:34] [js][info] [*] driver v5 installed
+[19:58:34] reattached, auto-opening pet page...
+[20:00:53] daemon starting, waiting for QQ...
+[20:00:55] attached QQ pid=5083
+[20:00:55] [js][info] [*] pet driver v5 loaded
+[20:00:55] [js][info] [*] driver v5 installed
+[20:00:55] driver loaded (carrier wait happens per-job)
+[20:01:33] job: OidbSvcTrpcTcp.0x9acb_0
+[20:01:37] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:01:40] loop error: script has been destroyed
+[20:01:43] QQ restarted 5083->6826, reattaching...
+[20:01:45] [js][info] [*] pet driver v5 loaded
+[20:01:45] [js][info] [*] driver v5 installed
+[20:01:45] reattached, auto-opening pet page...
+[20:01:57] loop error: script has been destroyed
+[20:02:00] QQ restarted 6826->21818, reattaching...
+[20:02:01] [js][info] [*] pet driver v5 loaded
+[20:02:02] [js][info] [*] driver v5 installed
+[20:02:02] reattached, auto-opening pet page...
+[20:02:55] carrier state: {'carrier': False, 'pending': False}
+[20:03:24] QQ restarted 21818->13227, reattaching...
+[20:03:25] [js][info] [*] pet driver v5 loaded
+[20:03:26] [js][info] [*] driver v5 installed
+[20:03:26] reattached, auto-opening pet page...
+[20:04:19] carrier state: {'carrier': False, 'pending': False}
+[20:10:22] daemon starting, waiting for QQ...
+[20:10:23] attached QQ pid=7896
+[20:10:23] [js][info] [*] pet driver v5 loaded
+[20:10:24] [js][info] [*] driver v5 installed
+[20:10:24] driver loaded (carrier wait happens per-job)
+[20:10:52] job: OidbSvcTrpcTcp.0x9acb_0
+[20:10:56] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:02] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:08] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:14] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:20] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:27] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:33] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:39] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:45] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:51] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:11:57] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:04] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:10] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:16] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:22] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:28] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:12:32] resp: sent=None resps=0
+[20:12:39] special dumped: {'carrier': True, 'pending': True}
+[20:13:23] daemon starting, waiting for QQ...
+[20:13:25] attached QQ pid=7896
+[20:13:25] [js][info] [*] pet driver v5 loaded
+[20:13:26] [js][info] [*] driver v5 installed
+[20:13:26] driver loaded (carrier wait happens per-job)
+[20:13:29] job: OidbSvcTrpcTcp.0x9acb_0
+[20:13:33] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:13:40] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:13:46] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:13:52] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:13:58] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:04] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:10] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:16] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:23] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:29] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:35] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:41] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:47] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:14:54] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:15:00] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:15:06] pump fail: cannot access local variable 'subprocess' where it is not associated with a value
+[20:15:10] resp: sent=None resps=0
+[20:16:30] daemon starting, waiting for QQ...
+[20:16:32] attached QQ pid=7896
+[20:16:32] [js][info] [*] pet driver v5 loaded
+[20:16:32] [js][info] [*] driver v5 installed
+[20:16:32] driver loaded (carrier wait happens per-job)
+[20:16:47] job: OidbSvcTrpcTcp.0x9acb_0
+[20:16:55] carrier pump #1
+[20:17:04] carrier pump #2
+[20:17:10] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:17] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:23] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:29] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:36] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:42] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:48] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:17:55] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:01] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:07] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:14] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:20] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:26] skip pump, focus: mCurrentFocus=Window{dfbfdc8 u0 com.google.android.apps.nexu
+[20:18:28] resp: sent=None resps=0
+[20:19:39] daemon starting, waiting for QQ...
+[20:19:41] attached QQ pid=7896
+[20:19:41] [js][info] [*] pet driver v5 loaded
+[20:19:42] [js][info] [*] driver v5 installed
+[20:19:42] driver loaded (carrier wait happens per-job)
+[20:19:45] job: OidbSvcTrpcTcp.0x9acb_0
+[20:19:50] pump: relaunched QQ
+[20:19:50] carrier pump #0
+[20:19:59] carrier pump #1 (friend-btn)
+[20:20:06] pump: relaunched QQ
+[20:20:06] carrier pump #1
+[20:20:31] carrier pump #2 (page-open)
+[20:20:41] carrier pump #3 (friend-btn)
+[20:20:57] carrier pump #4 (page-open)
+[20:21:06] carrier pump #5 (friend-btn)
+[20:21:23] carrier pump #6 (page-open)
+[20:21:26] resp: sent=None resps=0
+[20:22:49] daemon starting, waiting for QQ...
+[20:22:51] attached QQ pid=7896
+[20:22:51] [js][info] [*] pet driver v5 loaded
+[20:22:52] [js][info] [*] driver v5 installed
+[20:22:52] driver loaded (carrier wait happens per-job)
+[20:22:56] job: OidbSvcTrpcTcp.0x9acb_0
+[20:23:03] carrier pump #1 (friend-btn)
+[20:23:30] carrier pump #2 (page-open)
+[20:23:39] carrier pump #3 (friend-btn)
+[20:23:55] carrier pump #4 (page-open)
+[20:24:04] carrier pump #5 (friend-btn)
+[20:24:20] carrier pump #6 (page-open)
+[20:24:29] carrier pump #7 (friend-btn)
+[20:24:46] carrier pump #8 (page-open)
+[20:24:47] resp: sent=None resps=0
+[20:24:47] special dumped: {'carrier': True, 'pending': True, 'yCalls': 89, 'lastSkip': 'none'}
+[20:26:23] daemon starting, waiting for QQ...
+[20:26:25] attached QQ pid=7896
+[20:26:25] [js][info] [*] pet driver v5 loaded
+[20:26:26] [js][info] [*] driver v5 installed
+[20:26:26] driver loaded (carrier wait happens per-job)
+[20:26:31] job: OidbSvcTrpcTcp.0x9acb_0
+[20:26:33] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:38] carrier pump #1 (friend-btn)
+[20:26:44] pump: relaunched QQ
+[20:26:44] carrier pump #1
+[20:26:44] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:45] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:54] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:26:55] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:12] carrier pump #2 (page-open)
+[20:27:21] carrier pump #3 (friend-btn)
+[20:27:22] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:35] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:36] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:36] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:36] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:36] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:36] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:27:41] carrier pump #4 (page-open)
+[20:27:51] carrier pump #5 (friend-btn)
+[20:27:52] [js-ERR] {"type": "error", "description": "TypeError: cannot read property '$borrowClassHandle' of null", "stack": "TypeError: cannot read property '$borrowClassHandle' of null\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:1225)\n    at e (frida/node_modules/frida-java-bridge/lib/class-factory.js:643)\n    at apply (native)\n    at <anonymous> (/script1.js:119)\n    at apply (nat
+[20:28:24] carrier pump #6 (page-open)
+[20:28:24] resp: sent=None resps=0
+[20:28:25] special dumped: {'carrier': True, 'pending': True, 'yCalls': 39, 'lastSkip': 'y#39:apply-err'}
+[20:29:28] daemon starting, waiting for QQ...
+[20:29:30] attached QQ pid=7896
+[20:29:30] [js][info] [*] pet driver v5 loaded
+[20:29:30] [js][info] [*] driver v5 installed
+[20:29:30] driver loaded (carrier wait happens per-job)
+[20:29:34] job: OidbSvcTrpcTcp.0x9acb_0
+[20:29:38] pump: relaunched QQ
+[20:29:38] carrier pump #0
+[20:29:39] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:29:49] resp: sent=True resps=7
+[20:30:47] daemon starting, waiting for QQ...
+[20:30:49] attached QQ pid=7896
+[20:30:49] [js][info] [*] pet driver v5 loaded
+[20:30:49] [js][info] [*] driver v5 installed
+[20:30:49] driver loaded (carrier wait happens per-job)
+[20:30:54] job: OidbSvcTrpcTcp.0x9acb_0
+[20:31:01] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:31:01] carrier pump #1 (friend-btn)
+[20:31:12] resp: sent=True resps=16
+[20:31:58] daemon starting, waiting for QQ...
+[20:32:00] attached QQ pid=7896
+[20:32:00] [js][info] [*] pet driver v5 loaded
+[20:32:00] [js][info] [*] driver v5 installed
+[20:32:00] driver loaded (carrier wait happens per-job)
+[20:32:09] job: OidbSvcTrpcTcp.0x9acb_0
+[20:32:16] carrier pump #1 (friend-btn)
+[20:32:23] pump: relaunched QQ
+[20:32:23] carrier pump #1
+[20:32:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:32:50] carrier pump #2 (page-open)
+[20:33:01] resp: sent=True resps=10
+[20:33:24] job: OidbSvcTrpcTcp.0x9875_1
+[20:33:31] carrier pump #1 (friend-btn)
+[20:33:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:33:47] carrier pump #2 (page-open)
+[20:33:58] resp: sent=True resps=8
+[20:35:25] daemon starting, waiting for QQ...
+[20:35:27] attached QQ pid=7896
+[20:35:27] [js][info] [*] pet driver v5 loaded
+[20:35:27] [js][info] [*] driver v5 installed
+[20:35:27] driver loaded (carrier wait happens per-job)
+[20:35:37] job: OidbSvcTrpcTcp.0x9875_1
+[20:35:45] carrier pump #1 (friend-btn)
+[20:36:08] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:08] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:09] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:36:15] carrier pump #2 (page-open)
+[20:36:25] resp: sent=True resps=8
+[20:36:26] special dumped: {'carrier': True, 'pending': True, 'yCalls': 17, 'lastSkip': 'y#17:already-sent'}
+[20:36:49] daemon starting, waiting for QQ...
+[20:36:50] attached QQ pid=7896
+[20:36:51] [js][info] [*] pet driver v5 loaded
+[20:36:51] [js][info] [*] driver v5 installed
+[20:36:51] driver loaded (carrier wait happens per-job)
+[20:36:55] job: OidbSvcTrpcTcp.0x9875_1
+[20:37:03] carrier pump #1 (friend-btn)
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:17] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:37:23] carrier pump #2 (page-open)
+[20:37:33] resp: sent=True resps=8
+[20:38:16] daemon starting, waiting for QQ...
+[20:38:18] attached QQ pid=7896
+[20:38:18] [js][info] [*] pet driver v5 loaded
+[20:38:19] [js][info] [*] driver v5 installed
+[20:38:19] driver loaded (carrier wait happens per-job)
+[20:38:23] job: OidbSvcTrpcTcp.0x9875_1
+[20:38:31] carrier pump #1 (friend-btn)
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:40] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:38:46] carrier pump #2 (page-open)
+[20:38:57] resp: sent=True resps=8
+[20:38:58] special dumped: {'carrier': True, 'pending': True, 'yCalls': 17, 'lastSkip': 'y#17:already-sent'}
+[20:39:23] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:37] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:38] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:41] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:50] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:51] special dumped: {'carrier': True, 'pending': True, 'yCalls': 30, 'lastSkip': 'y#30:already-sent'}
+[20:39:58] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:58] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:58] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:58] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:58] special dumped: {'carrier': True, 'pending': True, 'yCalls': 34, 'lastSkip': 'y#34:already-sent'}
+[20:39:58] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:39:59] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:00] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:00] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:00] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:00] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:00] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:01] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:04] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:04] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:04] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:04] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:40:04] special dumped: {'carrier': True, 'pending': True, 'yCalls': 46, 'lastSkip': 'y#46:already-sent'}
+[20:40:04] [js-ERR] {"type": "error", "description": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?", "stack": "Error: Wrapper is disposed; perhaps it was borrowed from a hook instead of calling Java.retain() to make a long-lived wrapper?\n    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:977)\n    at value (frida/n
+[20:54:50] daemon starting, waiting for QQ...
+[20:54:50] attached QQ pid=22076
+[20:54:50] [js][info] [*] driver-lite2 loaded
+[20:54:51] [js][info] [*] driver-lite2 installed
+[20:54:51] driver loaded (carrier wait happens per-job)
+[20:54:56] job: OidbSvcTrpcTcp.0x9acb_0
+[20:55:04] carrier pump #1 (friend-btn)
+[20:55:32] carrier pump #2 (page-open)
+[20:55:42] carrier pump #3 (friend-btn)
+[20:56:10] carrier pump #4 (page-open)
+[20:56:20] carrier pump #5 (friend-btn)
+[20:56:49] carrier pump #6 (page-open)
+[20:56:49] resp: sent=None resps=0
+[20:57:54] job: OidbSvcTrpcTcp.0x9acb_0
+[20:58:01] carrier pump #1 (friend-btn)
+[20:58:30] carrier pump #2 (page-open)
+[20:58:34] resp: sent=None resps=0
+[20:58:59] QQ restarted 22076->26501, reattaching...
+[20:59:00] [js][info] [*] driver-lite2 loaded
+[20:59:00] [js][info] [*] driver-lite2 installed
+[20:59:00] reattached, auto-opening pet page...
+[20:59:32] recovery done (non-blocking)
+[20:59:34] special dumped: {'carrier': True, 'pending': False, 'logN': 28}
+[20:59:43] job: OidbSvcTrpcTcp.0x9acb_0
+[20:59:50] carrier pump #1 (friend-btn)
+[21:00:00] [js][info] [M] 04:00:00.814 PIGGY-SENT
+[21:00:06] carrier pump #2 (page-open)
+[21:00:17] resp: sent=True resps=0
+[21:00:49] daemon starting, waiting for QQ...
+[21:00:51] attached QQ pid=26501
+[21:00:51] [js][info] [*] driver-lite2 loaded
+[21:00:51] [js][info] [*] driver-lite2 installed
+[21:00:51] driver loaded (carrier wait happens per-job)
+[21:00:55] job: OidbSvcTrpcTcp.0x9acb_0
+[21:01:03] carrier pump #1 (friend-btn)
+[21:01:18] [js][info] [M] 04:01:18.985 PIGGY-SENT
+[21:01:24] carrier pump #2 (page-open)
+[21:01:35] resp: sent=True resps=0
+[21:02:23] daemon starting, waiting for QQ...
+[21:02:25] attached QQ pid=26501
+[21:02:25] [js][info] [*] driver-lite2 loaded
+[21:02:25] [js][info] [*] driver-lite2 installed
+[21:02:25] driver loaded (carrier wait happens per-job)
+[21:02:37] job: OidbSvcTrpcTcp.0x9acb_0
+[21:02:44] carrier pump #1 (friend-btn)
+[21:03:09] [js][info] [M] 04:03:09.768 PIGGY-SENT
+[21:03:15] carrier pump #2 (page-open)
+[21:03:26] resp: sent=True resps=0
+[21:04:21] daemon starting, waiting for QQ...
+[21:04:23] attached QQ pid=26501
+[21:04:23] [js][info] [*] driver-lite2 loaded
+[21:04:24] [js][info] [*] driver-lite2 installed
+[21:04:24] driver loaded (carrier wait happens per-job)
+[21:04:28] job: OidbSvcTrpcTcp.0x9acb_0
+[21:04:35] carrier pump #1 (friend-btn)
+[21:04:45] [js][info] [M] 04:04:45.963 PIGGY-SENT
+[21:04:51] carrier pump #2 (page-open)
+[21:05:02] resp: sent=True resps=0
+[21:05:39] daemon starting, waiting for QQ...
+[21:05:41] attached QQ pid=26501
+[21:05:41] [js][info] [*] driver-lite2 loaded
+[21:05:41] [js][info] [*] driver-lite2 installed
+[21:05:41] driver loaded (carrier wait happens per-job)
+[21:05:46] job: OidbSvcTrpcTcp.0x9acb_0
+[21:05:53] carrier pump #1 (friend-btn)
+[21:06:03] [js][info] [M] 04:06:03.973 PIGGY-SENT
+[21:06:09] carrier pump #2 (page-open)
+[21:06:20] resp: sent=True resps=0
+[21:06:52] daemon starting, waiting for QQ...
+[21:06:53] attached QQ pid=26637
+[21:06:53] [js][info] [*] driver-lite2 loaded
+[21:06:54] [js][info] [*] driver-lite2 installed
+[21:06:54] driver loaded (carrier wait happens per-job)
+[21:06:58] job: OidbSvcTrpcTcp.0x9acb_0
+[21:07:06] carrier pump #1 (friend-btn)
+[21:07:34] carrier pump #2 (page-open)
+[21:07:39] resp: sent=None resps=0
+[21:07:50] QQ restarted 26637->30544, reattaching...
+[21:07:51] [js][info] [*] driver-lite2 loaded
+[21:07:52] [js][info] [*] driver-lite2 installed
+[21:07:52] reattached, auto-opening pet page...
+[21:08:15] recovery done (non-blocking)
+[21:08:16] QQ restarted 30544->26637, reattaching...
+[21:08:16] [js][info] [*] driver-lite2 loaded
+[21:08:17] [js][info] [*] driver-lite2 installed
+[21:08:17] reattached, auto-opening pet page...
+[21:08:39] recovery done (non-blocking)
+[21:08:42] job: OidbSvcTrpcTcp.0x9acb_0
+[21:08:50] carrier pump #1 (friend-btn)
+[21:09:18] carrier pump #2 (page-open)
+[21:09:23] resp: sent=None resps=0
+[21:09:23] QQ restarted 26637->31086, reattaching...
+[21:09:25] [js][info] [*] driver-lite2 loaded
+[21:09:26] [js][info] [*] driver-lite2 installed
+[21:09:26] reattached, auto-opening pet page...
+[21:09:48] recovery done (non-blocking)
+[21:10:00] job: OidbSvcTrpcTcp.0x9acb_0
+[21:10:07] carrier pump #1 (friend-btn)
+[21:10:36] carrier pump #2 (page-open)
+[21:10:40] resp: sent=None resps=0
+[21:10:50] special dumped: {'carrier': False, 'pending': True, 'logN': 0}

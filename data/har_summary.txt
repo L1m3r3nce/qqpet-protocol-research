@@ -1,0 +1,126 @@
+total entries: 111
+--- hosts ---
+  39  aeventlog.beacon.qq.com:8081
+  28  qqai.gtimg.com
+  19  m8x.cdn-go.cn
+   9  h.trace.qq.com
+   6  www.google.com
+   2  qqpet.gtimg.com
+   2  183.47.110.220
+   2  183.47.107.174:8080
+   1  tianquan.gtimg.cn
+   1  multimedia.nt.qq.com.cn
+   1  222.79.113.19
+   1  180.111.196.173:8080
+--- entries (idx | method status | host | path | mime) ---
+  0 | GET    0 | qqai.gtimg.com                      | /pet-asset/1/4005007/5/4005007.zip                                               | 
+  1 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4007302/2/4007302.zip                                               | application/zip
+  2 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2000130/2/2000130.zip                                               | application/zip
+  3 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+  4 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4005110/2/4005110.zip                                               | application/zip
+  5 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+  6 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+  7 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+  8 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+  9 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 10 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 11 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 12 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 13 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4005013/6/4005013.zip                                               | application/zip
+ 14 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 15 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/1000001/60/1000001.zip                                              | application/zip
+ 16 | CONNECT   0 | www.google.com                      |                                                                                  | 
+ 17 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 18 | GET  200 | tianquan.gtimg.cn                   | /petRaise/item/837aa1aee9281597/selected_preview.png                             | image/png
+ 19 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/9990021/3/9990021.zip                                               | application/zip
+ 20 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4005051/1/4005051.zip                                               | application/zip
+ 21 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4006014/2/4006014.zip                                               | application/zip
+ 22 | POST   0 | h.trace.qq.com                      | /kv                                                                              | 
+ 23 | CONNECT   0 | h.trace.qq.com                      |                                                                                  | 
+ 24 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4006013/2/4006013.zip                                               | application/zip
+ 25 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/pet/fdddb63d34dcfa86164e2a25afe27aad.png                       | image/png
+ 26 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003673/2/4003673.zip                                               | application/zip
+ 27 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003642/2/4003642.zip                                               | application/zip
+ 28 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003634/3/4003634.zip                                               | application/zip
+ 29 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 30 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003630/3/4003630.zip                                               | application/zip
+ 31 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 32 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 33 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 34 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 35 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003602/2/4003602.zip                                               | application/zip
+ 36 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 37 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 38 | CONNECT   0 | h.trace.qq.com                      |                                                                                  | 
+ 39 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 40 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003598/3/4003598.zip                                               | application/zip
+ 41 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/dc6b609c482a34697b23cac9f9135881.png                        | image/png
+ 42 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/39906d8e3512742b5cd100124ffc8ac0.png                        | image/png
+ 43 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/703e24fe114acdcb2081479bb4c473f3.png                        | image/png
+ 44 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/640cd779b5a7262363a8ed73e14fbd1c.png                        | image/png
+ 45 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/c359152e772e04d8cf703aba2a62372e.png                        | image/png
+ 46 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/fa75b41ee75ae40ca70744be3e67b1b9.png                        | image/png
+ 47 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/237b061c17d0a2836c088b6102faf5e6.png                        | image/png
+ 48 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/09648f3774bf2f7449efced760d5f705.png                        | image/png
+ 49 | GET  200 | qqpet.gtimg.com                     | /pet-outdoor/result/icon/3459.png                                                | image/png
+ 50 | GET  200 | qqai.gtimg.com                      | /pet-calendar/atmosphere-pic-url/f806be21_kfu41xq8h6q.png                        | image/png
+ 51 | GET  200 | qqpet.gtimg.com                     | /pet-outdoor/result/icon/3458.png                                                | image/png
+ 52 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/76f3cebbb84cb83474d6452abfdc36cc.png                        | image/png
+ 53 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 54 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/cceb3607ba34fb4e5aaff870e6f550e6.pag                        | application/octet-stream
+ 55 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/512af231453e97c5a5abede7eaedc5d7.pag                        | application/octet-stream
+ 56 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/25ca0af2aa6bdbd29e3d00f771ab986a.png                        | image/png
+ 57 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/0acedf1cafa06d9f6523fb716497fdc9.png                        | image/png
+ 58 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/2e6a373b404d50e133d75334bcfb7f24.pag                        | application/octet-stream
+ 59 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/e27ed6a4a75a83814f6fb6b3080aa3b2.pag                        | application/octet-stream
+ 60 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/c298778c01fe026a68c1c0ddede27669.jpg                        | image/jpeg
+ 61 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/e95ab7781d000abf7e50813f15c3b59b.jpg                        | image/jpeg
+ 62 | GET  200 | m8x.cdn-go.cn                       | /web/cdn/-/latest/ai/ad9b8efa2054939087d79a5edeb73559.png                        | image/png
+ 63 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 64 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 65 | CONNECT   0 | www.google.com                      |                                                                                  | 
+ 66 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/4003622/3/4003622.zip                                               | application/zip
+ 67 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 68 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 69 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 70 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 71 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 72 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 73 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 74 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2010315/3/2010315.zip                                               | application/zip
+ 75 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 76 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 77 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 78 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 79 | CONNECT   0 | www.google.com                      |                                                                                  | 
+ 80 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 81 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 82 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/5030116/2/5030116.zip                                               | application/zip
+ 83 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 84 | POST 200 | h.trace.qq.com                      | /kv                                                                              | image/gif
+ 85 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 86 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 87 | GET  200 | multimedia.nt.qq.com.cn             | /download                                                                        | image/jpeg
+ 88 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 89 | CONNECT   0 | www.google.com                      |                                                                                  | 
+ 90 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2010316/1/2010316.zip                                               | application/zip
+ 91 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/5000117/2/5000117.zip                                               | application/zip
+ 92 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 93 | GET  200 | 222.79.113.19                       | /g                                                                               | image/jpeg
+ 94 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2000097/2/2000097.zip                                               | application/zip
+ 95 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+ 96 | CONNECT   0 | www.google.com                      |                                                                                  | 
+ 97 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2000119/5/2000119.zip                                               | application/zip
+ 98 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/1050011/3/1050011.zip                                               | application/zip
+ 99 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/2010199/2/2010199.zip                                               | application/zip
+100 | CONNECT   0 | qqai.gtimg.com                      |                                                                                  | 
+101 | GET  206 | qqai.gtimg.com                      | /pet-asset/1/9990010/5/9990010.zip                                               | application/zip
+102 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+103 | CONNECT 200 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+104 | CONNECT   0 | aeventlog.beacon.qq.com:8081        |                                                                                  | 
+105 | CONNECT 200 | 183.47.110.220                      |                                                                                  | 
+106 | CONNECT   0 | www.google.com                      |                                                                                  | 
+107 | CONNECT 200 | 180.111.196.173:8080                |                                                                                  | 
+108 | CONNECT 200 | 183.47.107.174:8080                 |                                                                                  | 
+109 | CONNECT 200 | 183.47.110.220                      |                                                                                  | 
+110 | CONNECT 200 | 183.47.107.174:8080                 |                                                                                  | 
