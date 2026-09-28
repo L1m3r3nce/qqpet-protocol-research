@@ -3,8 +3,8 @@ import subprocess
 import sys
 import time
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
 
 
 def sh(cmd, timeout=30):

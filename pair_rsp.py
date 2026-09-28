@@ -17,7 +17,7 @@ def deep_fix(obj):
     return obj
 
 
-with open(r"G:\plugin_qq\pb_capture.json", encoding="utf-8") as f:
+with open(r".\pb_capture.json", encoding="utf-8") as f:
     entries = json.load(f)
 
 # RSP 的 b64 存在 entries 里；按时间配对最近的同序 REQ

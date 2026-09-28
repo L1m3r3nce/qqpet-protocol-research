@@ -57,7 +57,7 @@ def annotate(obj):
     return obj
 
 
-with open(r"G:\plugin_qq\pb_capture.json", encoding="utf-8") as f:
+with open(r".\pb_capture.json", encoding="utf-8") as f:
     entries = json.load(f)
 
 FOCUS = ("0x9b60_1", "0x9ab2_1", "0x975e_1", "0x985d_0", "0x975c_1", "0x975f_1", "0x9760_1", "0x96a6_1")

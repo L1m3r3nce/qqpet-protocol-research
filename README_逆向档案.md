@@ -86,7 +86,7 @@ com.tencent.qphone.base.remote.ToServiceMsg (QQ MSF RPC 信封)
  4: 内层protobuf, 6: "android 9.3.70", 11: "qq-trans\ncompose_version=1.0.0_debug"(type=0时)}
 ```
 
-**身份参数**：petId = base64("1120602125-4-2-1785167541866")（QQ号-物种4-2-时间戳）
+**身份参数**：petId = base64("1000000000-4-2-1785167541866")（QQ号-物种4-2-时间戳）
 
 ## 三、环境与工具链（已搭好）
 

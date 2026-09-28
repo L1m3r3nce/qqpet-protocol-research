@@ -7,9 +7,9 @@ import subprocess
 import sys
 import time
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
-SHOT = r"G:\plugin_qq\peng.png"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
+SHOT = r".\peng.png"
 
 # Q宠 容器（uiautomator 确认过的主页悬浮窗区域，放宽一些）
 BOX = (900, 1650, 1080, 2260)

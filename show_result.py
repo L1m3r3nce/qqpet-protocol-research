@@ -3,7 +3,7 @@ import json
 
 from pet_bot import dec_pb, fmt
 
-r = json.load(open(r"G:\plugin_qq\resp.json", encoding="utf-8"))
+r = json.load(open(r".\resp.json", encoding="utf-8"))
 for k, v in r.items():
     if k == "resps":
         continue

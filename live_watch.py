@@ -3,8 +3,8 @@ import json
 import os
 import time
 
-CMD = r"G:\plugin_qq\cmd.json"
-RESP = r"G:\plugin_qq\resp.json"
+CMD = r".\cmd.json"
+RESP = r".\resp.json"
 
 for round_ in range(3):
     if os.path.exists(RESP):

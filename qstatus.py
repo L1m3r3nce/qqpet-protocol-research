@@ -2,8 +2,8 @@ import json
 import os
 import time
 
-CMD = r"G:\plugin_qq\cmd.json"
-RESP = r"G:\plugin_qq\resp.json"
+CMD = r".\cmd.json"
+RESP = r".\resp.json"
 
 if os.path.exists(RESP):
     os.remove(RESP)

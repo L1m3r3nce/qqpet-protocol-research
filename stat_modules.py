@@ -2,7 +2,7 @@
 import re
 from collections import Counter
 
-LOG = r"G:\plugin_qq\phaseA_log.txt"
+LOG = r".\phaseA_log.txt"
 
 pairs = Counter()
 details = []

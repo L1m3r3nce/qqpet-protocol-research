@@ -1,13 +1,13 @@
 """mitmproxy addon: 把经过代理的 HTTP(S) 流量记录成 JSONL，便于离线分析 QQ 宠物接口。
 
 用法: mitmdump -s capture_addon.py --listen-host 0.0.0.0 --listen-port 8080
-输出: G:/plugin_qq/capture_flows.jsonl
+输出: ./capture_flows.jsonl
 """
 import json
 import time
 from pathlib import Path
 
-OUT = Path(r"G:\plugin_qq\capture_flows.jsonl")
+OUT = Path(r".\capture_flows.jsonl")
 MAX_BODY = 20000  # 每条请求/响应体最多记录的字符数
 
 # 噪音域名直接跳过（系统服务、广告、统计等），让抓包文件干净些

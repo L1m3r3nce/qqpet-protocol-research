@@ -1,7 +1,7 @@
 """从 uiautomator dump 里找企鹅节点。"""
 import re
 
-xml = open(r"G:\plugin_qq\ui.xml", encoding="utf-8").read()
+xml = open(r".\ui.xml", encoding="utf-8").read()
 print("size:", len(xml))
 
 hits = 0

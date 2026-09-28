@@ -6,7 +6,7 @@ import threading
 
 import frida
 
-LOG = r"G:\plugin_qq\hook_log.jsonl"
+LOG = r".\hook_log.jsonl"
 
 
 def on_message(message, data):
@@ -43,7 +43,7 @@ def main():
     pid = dev.spawn(["com.tencent.mobileqq"])
     print("spawned QQ pid:", pid)
     session = dev.attach(pid)
-    with open(r"G:\plugin_qq\hook_pet.js", encoding="utf-8") as f:
+    with open(r".\hook_pet.js", encoding="utf-8") as f:
         src = f.read()
     script = session.create_script(src)
     script.on("message", on_message)

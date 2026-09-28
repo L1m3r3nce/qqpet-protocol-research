@@ -3,10 +3,10 @@ import base64
 import json
 import sys
 
-sys.path.insert(0, r"G:\plugin_qq")
+sys.path.insert(0, r".")
 from pet_bot import dec_pb, fmt
 
-r = {"resplog": json.load(open(r"G:\plugin_qq\final_resplog.json", encoding="utf-8"))}
+r = {"resplog": json.load(open(r".\final_resplog.json", encoding="utf-8"))}
 for i, e in enumerate(r.get("resplog") or []):
     if not e.get("b64"):
         continue

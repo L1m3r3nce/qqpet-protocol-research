@@ -14,12 +14,12 @@ import subprocess
 import sys
 import time
 
-sys.path.insert(0, r"G:\plugin_qq")
+sys.path.insert(0, r".")
 from pet_bot import enc_str, enc_int, dec_pb, fmt, envelope  # noqa: E402
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
-PET_ID = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
+PET_ID = "MTAwMDAwMDAwMDA="
 COURSE_ID = 6100
 
 import frida  # noqa: E402
@@ -59,7 +59,7 @@ class Bot:
         if pid is None:
             raise RuntimeError("QQ 未运行")
         session = dev.attach(pid)
-        with open(r"G:\plugin_qq\driver_lite.js", encoding="utf-8") as f:
+        with open(r".\driver_lite.js", encoding="utf-8") as f:
             self.script = session.create_script(f.read())
         self.script.set_log_handler(lambda lvl, msg: print(f"[js][{lvl}] {msg}") if "PIGGY" in msg or "CHK pending=true" in msg else None)
         self.script.on("message", lambda m, d: None)
@@ -81,7 +81,7 @@ class Bot:
             sh("input keyevent KEYCODE_BACK")
             time.sleep(2)
         for i in range(retries):
-            out = run_py(r"G:\plugin_qq\find_penguin.py")
+            out = run_py(r".\find_penguin.py")
             tail = out.splitlines()[-1] if out else "(no output)"
             print(f"  carrier[{i+1}]: {tail}")
             if "PET PAGE OPENED" in out:
@@ -144,7 +144,7 @@ class Bot:
         if not on_main:
             sh("input keyevent KEYCODE_BACK")
             time.sleep(2)
-        out = run_py(r"G:\plugin_qq\find_penguin.py")
+        out = run_py(r".\find_penguin.py")
         tail = out.splitlines()[-1] if out else "(no output)"
         print(f"  carrier[{i+1}]: {tail}")
         if "NOT on QQ main page" in out:

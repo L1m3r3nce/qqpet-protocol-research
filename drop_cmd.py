@@ -5,10 +5,10 @@ import os
 import sys
 import time
 
-CMD_FILE = r"G:\plugin_qq\cmd.json"
-RESP_FILE = r"G:\plugin_qq\resp.json"
+CMD_FILE = r".\cmd.json"
+RESP_FILE = r".\resp.json"
 
-PET_ID_B64 = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"
+PET_ID_B64 = "MTAwMDAwMDAwMDA="
 
 from pet_bot import enc_str, enc_int, envelope  # noqa: E402
 
@@ -24,8 +24,8 @@ name = sys.argv[1] if len(sys.argv) > 1 else "state"
 if name == "carrier":
     # 自造载体：点好友按钮触发请求流
     import subprocess
-    subprocess.run([r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe", "-s",
-                    "0A241FDD4005G7", "shell", "input tap 1144 1360"], timeout=15)
+    subprocess.run([r"adb", "-s",
+                    "YOUR_DEVICE_SERIAL", "shell", "input tap 1144 1360"], timeout=15)
     print("carrier tapped (friend button)")
     sys.exit(0)
 

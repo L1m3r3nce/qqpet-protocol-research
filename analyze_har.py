@@ -3,7 +3,7 @@ import json
 from collections import Counter
 from urllib.parse import urlparse
 
-with open(r"G:\plugin_qq\pet.har", encoding="utf-8") as f:
+with open(r".\pet.har", encoding="utf-8") as f:
     har = json.load(f)
 
 entries = har["log"]["entries"]

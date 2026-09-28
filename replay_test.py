@@ -6,7 +6,7 @@ import time
 import frida
 
 # 从录制数据取一条真实的 0x9875_1 心跳
-CAP = r"G:\plugin_qq\pb_capture.json"
+CAP = r".\pb_capture.json"
 with open(CAP, encoding="utf-8") as f:
     entries = json.load(f)
 hb = None

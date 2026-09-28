@@ -7,14 +7,14 @@ import subprocess
 import sys
 import time
 
-sys.path.insert(0, r"G:\plugin_qq")
+sys.path.insert(0, r".")
 from pet_bot import enc_str, dec_pb, fmt  # noqa: E402
 import pet_bot  # noqa: E402
 import frida  # noqa: E402
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
-PET_ID = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
+PET_ID = "MTAwMDAwMDAwMDA="
 
 
 def sh(cmd, t=20):
@@ -38,7 +38,7 @@ dev = frida.get_device_manager().add_remote_device("127.0.0.1:4779")
 pid = next((p.pid for p in dev.enumerate_processes() if p.name == "QQ"), None)
 print("QQ pid:", pid)
 session = dev.attach(pid)
-with open(r"G:\plugin_qq\driver_lite.js", encoding="utf-8") as f:
+with open(r".\driver_lite.js", encoding="utf-8") as f:
     script = session.create_script(f.read())
 script.set_log_handler(lambda lvl, msg: print(f"[js][{lvl}] {msg}"))
 script.on("message", lambda m, d: print(f"[js-ERR] {json.dumps(m, ensure_ascii=False)[:150]}"))
@@ -53,7 +53,7 @@ q = json.loads(script.exports_sync.request("OidbSvcTrpcTcp.0x9acb_0",
 print("queued:", q)
 
 # 4. 开宠物页（爆发即载体）
-print(run_py(r"G:\plugin_qq\find_penguin.py")[-60:])
+print(run_py(r".\find_penguin.py")[-60:])
 time.sleep(3)
 
 # 6. 等
@@ -78,7 +78,7 @@ if r.get("respB64"):
 
 print("=== RESP LOG (tail) ===")
 log = json.loads(script.exports_sync.resplog())
-with open(r"G:\plugin_qq\final_resplog.json", "w", encoding="utf-8") as f:
+with open(r".\final_resplog.json", "w", encoding="utf-8") as f:
     json.dump(log, f, ensure_ascii=False, indent=1)
 for e in log[-14:]:
     b = (e.get("b64") or "")[:60]

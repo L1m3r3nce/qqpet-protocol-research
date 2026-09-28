@@ -6,15 +6,15 @@ import subprocess
 import sys
 import time
 
-sys.path.insert(0, r"G:\plugin_qq")
+sys.path.insert(0, r".")
 from pet_bot import enc_str, dec_pb, fmt  # noqa: E402
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
-PET_ID = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
+PET_ID = "MTAwMDAwMDAwMDA="
 
-CMD_FILE = r"G:\plugin_qq\cmd.json"
-RESP_FILE = r"G:\plugin_qq\resp.json"
+CMD_FILE = r".\cmd.json"
+RESP_FILE = r".\resp.json"
 
 inner = enc_str(1, PET_ID) + enc_str(2, bytes.fromhex("0103040508090b0f0a0e0d"))
 job = {

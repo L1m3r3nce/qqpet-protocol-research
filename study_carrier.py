@@ -6,13 +6,13 @@ import subprocess
 import sys
 import time
 
-sys.path.insert(0, r"G:\plugin_qq")
+sys.path.insert(0, r".")
 from pet_bot import enc_str  # noqa: E402
 import pet_bot  # noqa: E402
 
-ADB = r"G:\software\adb\scrcpy-win64-v3.3.3\scrcpy-win64-v3.3.3\adb.exe"
-SERIAL = "0A241FDD4005G7"
-PET_ID = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"
+ADB = r"adb"
+SERIAL = "YOUR_DEVICE_SERIAL"
+PET_ID = "MTAwMDAwMDAwMDA="
 
 inner = enc_str(1, PET_ID) + enc_str(2, bytes.fromhex("0103040508090b0f0a0e0d"))
 job = {
@@ -21,9 +21,9 @@ job = {
     "etype": 0,
     "wait": 40,
 }
-if os.path.exists(r"G:\plugin_qq\resp.json"):
-    os.remove(r"G:\plugin_qq\resp.json")
-json.dump(job, open(r"G:\plugin_qq\cmd.json", "w"))
+if os.path.exists(r".\resp.json"):
+    os.remove(r".\resp.json")
+json.dump(job, open(r".\cmd.json", "w"))
 print("queued")
 time.sleep(1)
 
@@ -33,8 +33,8 @@ print("tapped study panel")
 
 deadline = time.time() + 45
 while time.time() < deadline:
-    if os.path.exists(r"G:\plugin_qq\resp.json"):
-        r = json.load(open(r"G:\plugin_qq\resp.json", encoding="utf-8"))
+    if os.path.exists(r".\resp.json"):
+        r = json.load(open(r".\resp.json", encoding="utf-8"))
         for k, v in r.items():
             if isinstance(v, str) and len(v) > 90:
                 v = v[:90] + "..."

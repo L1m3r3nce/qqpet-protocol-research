@@ -1,7 +1,7 @@
 """提取所有 sendPbRequest 调用的完整参数（cmd + 载荷）。"""
 import re
 
-LOG = r"G:\plugin_qq\phaseA_log.txt"
+LOG = r".\phaseA_log.txt"
 
 out = []
 with open(LOG, encoding="utf-8") as f:

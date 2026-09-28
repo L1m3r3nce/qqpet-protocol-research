@@ -1,7 +1,7 @@
 """探查 Reqable LMDB: 子库、非数字键、值格式。"""
 import lmdb
 
-env = lmdb.open(r"G:\plugin_qq\reqable_data\box\data.mdb",
+env = lmdb.open(r".\reqable_data\box\data.mdb",
                 readonly=True, lock=False, subdir=False, max_dbs=16)
 
 for name in [b"records", b"record", b"captures", b"capture", b"req", b"http",

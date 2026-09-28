@@ -3,7 +3,7 @@ import base64
 import json
 import re
 
-LOG = r"G:\plugin_qq\phaseA_log.txt"
+LOG = r".\phaseA_log.txt"
 
 entries = []
 with open(LOG, encoding="utf-8") as f:
@@ -29,7 +29,7 @@ for e in entries:
         print(f"{e['ts']} REQ {e['cmd']}  pb_sizes={sizes}")
 
 # 存档完整数据
-with open(r"G:\plugin_qq\pb_capture.json", "w", encoding="utf-8") as f:
+with open(r".\pb_capture.json", "w", encoding="utf-8") as f:
     json.dump(entries, f, ensure_ascii=False, indent=1)
 print("\nsaved", len(entries), "entries -> pb_capture.json")
 

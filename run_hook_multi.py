@@ -5,7 +5,7 @@ import time
 
 import frida
 
-LOG = r"G:\plugin_qq\hook_log.jsonl"
+LOG = r".\hook_log.jsonl"
 TARGETS = ("QQ", "com.tencent.mobileqq:MSF", "com.tencent.mobileqq:wxa_container0")
 
 attached = {}  # name -> (pid, session, script)
@@ -34,7 +34,7 @@ def make_on_console(proc_label):
 
 def main():
     dev = frida.get_device_manager().add_remote_device("127.0.0.1:4779")
-    with open(r"G:\plugin_qq\hook_pet.js", encoding="utf-8") as f:
+    with open(r".\hook_pet.js", encoding="utf-8") as f:
         src = f.read()
 
     def try_attach(name, pid):

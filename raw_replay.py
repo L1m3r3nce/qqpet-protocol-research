@@ -3,10 +3,10 @@ import json
 import os
 import time
 
-CMD_FILE = r"G:\plugin_qq\cmd.json"
-RESP_FILE = r"G:\plugin_qq\resp.json"
+CMD_FILE = r".\cmd.json"
+RESP_FILE = r".\resp.json"
 
-with open(r"G:\plugin_qq\pb_capture.json", encoding="utf-8") as f:
+with open(r".\pb_capture.json", encoding="utf-8") as f:
     entries = json.load(f)
 hb = None
 for e in entries:
@@ -32,7 +32,7 @@ while time.time() < deadline:
         if r.get("respB64"):
             import base64
             import sys
-            sys.path.insert(0, r"G:\plugin_qq")
+            sys.path.insert(0, r".")
             from pet_bot import dec_pb, fmt
             print("--- decoded response ---")
             print(fmt(dec_pb(base64.b64decode(r["respB64"])))[:2000])

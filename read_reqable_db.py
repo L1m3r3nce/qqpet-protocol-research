@@ -8,7 +8,7 @@ import sys
 import lmdb
 import msgpack
 
-DB = r"G:\plugin_qq\reqable_data\box\data.mdb"
+DB = r".\reqable_data\box\data.mdb"
 
 env = lmdb.open(DB, readonly=True, lock=False, subdir=False, max_dbs=8)
 txn = env.begin()

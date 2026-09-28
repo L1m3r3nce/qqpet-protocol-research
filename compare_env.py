@@ -6,7 +6,7 @@ from pet_bot import dec_pb, fmt, envelope, enc_str, enc_int, PET_ID_B64
 
 MY_B64 = "CMu1AhAAGAAiQgooTVRFeU1EWXdNakV5TlMwMExUSXRNVGM0TlRFMk56VTBNVGcyTmc9PRIWMDEwMzA0MDUwODA5MGIwZjBhMGUwZDIOYW5kcm9pZCA5LjMuNzBaJHFxLXRyYW5zCmNvbXBvc2VfdmVyc2lvbj0xLjAuMF9kZWJ1Zw=="
 
-with open(r"G:\plugin_qq\pb_capture.json", encoding="utf-8") as f:
+with open(r".\pb_capture.json", encoding="utf-8") as f:
     entries = json.load(f)
 real = None
 for e in entries:

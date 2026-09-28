@@ -1,5 +1,5 @@
 """给 driver.js 加回调包装（makeLogger）。"""
-src = open(r"G:\plugin_qq\driver.js", encoding="utf-8").read()
+src = open(r".\driver.js", encoding="utf-8").read()
 
 anchor = 'var r = ov.apply(this, args);\n                // call 层搭车（重测：null-bug 修复后）'
 wrap_code = '''// 包装真实回调：记录所有到达的响应（搭车响应也流到这里）
@@ -67,7 +67,7 @@ if "resplog" not in src:
         '    clearlog: function () { respLog = []; return "ok"; },'
     )
 
-open(r"G:\plugin_qq\driver.js", "w", encoding="utf-8").write(src)
+open(r".\driver.js", "w", encoding="utf-8").write(src)
 print("makeLogger added:", "function makeLogger" in src)
 print("resplog rpc:", "resplog:" in src)
 print("wrap in call:", "makeLogger(args[2])" in src)

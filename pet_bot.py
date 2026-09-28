@@ -17,7 +17,7 @@ import frida
 # ---------- 配置 ----------
 ADB_SERIAL_NOTE = "Frida server: Pixel 上 /data/local/tmp/.sysmond3 -l 127.0.0.1:4779"
 FRIDA_ADDR = "127.0.0.1:4779"
-PET_ID_B64 = "MTEyMDYwMjEyNS00LTItMTc4NTE2NzU0MTg2Ng"  # 38字符，无=填充
+PET_ID_B64 = "MTAwMDAwMDAwMDA="  # 38字符，无=填充
 COURSE_ID = 6100          # 星耀夏令营（从抓包确认的当前可选课）
 FRIENDS = []              # 好友宠物ID(b64)，留空则自动从列表拉
 
@@ -152,7 +152,7 @@ class PetDriver:
         if pid is None:
             raise RuntimeError("QQ 未运行（Pixel 上打开 QQ 后重试）")
         self.session = self.dev.attach(pid)
-        with open(r"G:\plugin_qq\driver.js", encoding="utf-8") as f:
+        with open(r".\driver.js", encoding="utf-8") as f:
             src = f.read()
         self.script = self.session.create_script(src)
         self.script.set_log_handler(lambda lvl, msg: print(f"[js][{lvl}] {msg}"))

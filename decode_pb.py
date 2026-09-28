@@ -95,7 +95,7 @@ def pretty(obj, indent=0):
 
 
 # 解码学习窗口的命令
-with open(r"G:\plugin_qq\pb_capture.json", encoding="utf-8") as f:
+with open(r".\pb_capture.json", encoding="utf-8") as f:
     entries = json.load(f)
 
 FOCUS_WINDOW = ("14:03:0", "14:03:1", "14:03:2", "14:03:3", "14:03:4", "14:04:")
